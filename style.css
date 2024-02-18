@@ -5,21 +5,6 @@
 a {
   text-decoration: none;
 }
-h2 {
-  position: relative;
-  top: 50%;
-  left: 31%;
-  color: transparent;
-  font-size: 50px;
-  line-height: 0;
-  font-family: sans-serif;
-}
-a:hover img {
-  opacity: 0.5;
-}
-a:hover h2 {
-  color: black;
-}
 
 .psychology,
 .finance,
@@ -41,9 +26,6 @@ a:hover h2 {
 .travel2,
 .fashion {
   width: 100%;
-}
-
-a .web:hover {
 }
 
 @media (min-width: 600px) {
