@@ -2,10 +2,6 @@
   margin: 0;
 }
 
-a {
-  text-decoration: none;
-}
-
 .psychology,
 .finance,
 .jobs,
@@ -30,13 +26,12 @@ a {
 
 @media (min-width: 600px) {
   .container {
-    /* min-height: 100vh; */
     display: flex;
     gap: 10px;
     padding: 40px;
   }
 
-  /* Containers */
+  /****** Containers ******/
   .left,
   .right {
     flex: 1;
@@ -90,7 +85,7 @@ a {
     justify-content: center;
   }
 
-  /* Images */
+  /****** Images ******/
   .locations,
   .fashion {
     width: 75%;
