@@ -2,10 +2,128 @@
   margin: 0;
 }
 
-.container {
-  background-image: url("/media/eugene.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 100vh;
+a {
+  text-decoration: none;
+}
+h2 {
+  position: relative;
+  top: 50%;
+  left: 31%;
+  color: transparent;
+  font-size: 50px;
+  line-height: 0;
+  font-family: sans-serif;
+}
+a:hover img {
+  opacity: 0.5;
+}
+a:hover h2 {
+  color: black;
+}
+
+.psychology,
+.finance,
+.jobs,
+.jobs2,
+.photography,
+.photography2,
+.art,
+.locations,
+.web img,
+.quotes2,
+.social-media,
+.ice-skating,
+.music,
+.soul-mate,
+.food,
+.movies,
+.travel,
+.travel2 {
+  width: 100%;
+}
+
+a .web:hover {
+}
+
+@media (min-width: 600px) {
+  .container {
+    /* min-height: 100vh; */
+    display: flex;
+    gap: 10px;
+    padding: 40px;
+  }
+
+  /* Containers */
+  .left,
+  .right {
+    flex: 1;
+    max-width: 690px;
+  }
+  .left {
+    padding-top: 90px;
+  }
+  .left-one {
+    flex: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+  }
+  .left,
+  .right-top,
+  .right-bottom {
+    display: flex;
+    gap: 10px;
+  }
+  .left-two,
+  .right-bottom-one {
+    flex: 40%;
+  }
+  .left-two {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .left-two-bottom {
+    display: flex;
+    gap: 10px;
+  }
+  .right-top {
+    width: 50%;
+    margin-bottom: 5px;
+    align-items: flex-end;
+  }
+  .left-three,
+  .right-top-one,
+  .right-top-two,
+  .right-bottom-two,
+  .right-bottom-three {
+    flex: 20%;
+  }
+  .right-bottom-three {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* Images */
+  .locations,
+  .fashion {
+    width: 75%;
+  }
+  .web img,
+  .jobs,
+  .finance,
+  .photography,
+  .photography2,
+  .psychology,
+  .ice-skating,
+  .soul-mate {
+    margin-bottom: 5px;
+  }
+  .locations {
+    float: right;
+    margin-bottom: 10px;
+  }
 }
