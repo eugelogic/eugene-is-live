@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+}
+
+.psychology,
+.creativity {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .container {
+    display: flex;
+    gap: 10px;
+    padding: 40px;
+  }
+
+  /* Containers */
+  .left,
+  .right {
+    flex: 1;
+    max-width: 690px;
+  }
+  .left {
+    padding-top: 90px;
+  }
+}
